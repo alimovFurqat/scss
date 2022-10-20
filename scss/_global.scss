@@ -1,0 +1,30 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+body{
+  font-family: 'Barlow';
+}
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
