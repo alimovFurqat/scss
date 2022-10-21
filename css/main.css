@@ -56,6 +56,11 @@ body {
   font-family: "Barlow";
 }
 
+img {
+  width: 100%;
+  width: auto;
+}
+
 .container {
   max-width: 1320px;
   margin: 0 auto;
@@ -197,6 +202,10 @@ body {
   color: #333D4B;
 }
 
+.collection__coffee {
+  max-width: 253px;
+}
+
 .choose {
   padding-bottom: 200px;
 }
@@ -313,4 +322,201 @@ body {
   background-color: #293039;
   height: 235px;
   z-index: -1;
+}
+
+.works__box {
+  max-width: 1111px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+.works__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 80px;
+}
+
+.works__line-block {
+  background-color: #fDD6BA;
+  height: 2px;
+  max-width: 760px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.works__span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #FEFCF7;
+  border: 2px solid #0E8784;
+}
+
+.works__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.works__list-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  margin-bottom: 38px;
+}
+
+.works__item-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  max-width: 255px;
+  margin-bottom: 42px;
+}
+
+.works__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  max-width: 285px;
+}
+
+.works__btn {
+  background: #66D2CF;
+  border-radius: 6px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  padding: 15px 31px;
+}
+
+.home__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home {
+  background-color: #2C343E;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 47px 85px;
+  margin-bottom: 80px;
+}
+
+.home__img {
+  max-width: 236px;
+}
+
+.home__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 103px;
+}
+
+.home__item {
+  margin-left: 33px;
+}
+
+.home__link {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.home__link:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.home__radio-bloc:hover {
+  color: #FDD6BA;
+}
+
+.home__lebel-faceboock {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url("../../img/faceboock.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.radio__checbox:checked + .home__lebel-faceboock {
+  background-color: #FDD6BA;
+}
+
+.home__lebel-twitter {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("../../img/twitter.png");
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.radio__checbox:checked + .home__lebel-twitter {
+  background-color: #FDD6BA;
+}
+
+.home__lebel-instagram {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("../../img/instagram.png");
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.radio__checbox:checked + .home__lebel-instagram {
+  background-color: #FDD6BA;
+}
+
+.radio__checbox {
+  margin-left: 20px;
 }/*# sourceMappingURL=main.css.map */

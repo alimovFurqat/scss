@@ -1,0 +1,75 @@
+.home__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home{
+  background-color: #2C343E;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 47px 85px;
+  margin-bottom: 80px;
+}
+.home__img{
+  max-width: 236px;
+}
+.home__list{
+  display: flex;
+  margin-left: 103px;
+}
+.home__item{
+  margin-left: 33px;
+}
+.home__link{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+}
+.home__link:hover{
+  color: #ffffff;
+  cursor: pointer;
+}
+.home__radio-bloc:hover{
+  color: #FDD6BA;
+}
+.home__lebel-faceboock{
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url('../../img/faceboock.svg');
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-position: center;
+}
+.radio__checbox:checked + .home__lebel-faceboock{
+  background-color:  #FDD6BA;
+}
+.home__lebel-twitter{
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('../../img/twitter.png');
+  margin-left: 20px;
+  cursor: pointer;
+  background-position: center;
+}
+.radio__checbox:checked + .home__lebel-twitter{
+  background-color:  #FDD6BA;
+}
+.home__lebel-instagram{
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('../../img/instagram.png');
+  margin-left: 20px;
+  cursor: pointer;
+}.radio__checbox:checked + .home__lebel-instagram{
+  background-color:  #FDD6BA;
+}

@@ -1,0 +1,77 @@
+.works__box{
+  max-width: 1111px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+.works__title{
+  font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+margin-bottom: 80px;
+}
+.works__line-block{
+  background-color: #fDD6BA;
+  height: 2px;
+  max-width: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.works__span{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #FEFCF7;
+border: 2px solid #0E8784;
+}
+.works__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.works__list-title{
+  font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FDD6BA;
+margin-bottom: 38px;
+}
+.works__item-title{
+  font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+max-width: 255px;
+margin-bottom: 42px;
+}
+.works__text{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+max-width: 285px;
+
+}
+.works__btn{
+  background: #66D2CF;
+border-radius: 6px;
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+padding: 15px 31px;
+}
